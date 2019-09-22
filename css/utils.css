@@ -9,3 +9,11 @@
 .mt-1 {
   margin-top: 1rem;
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
