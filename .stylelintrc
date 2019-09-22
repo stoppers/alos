@@ -7,5 +7,6 @@
         "ignorePseudoClasses": ["global"]
       }
     ],
+    "number-leading-zero": "always"
   }
 }
