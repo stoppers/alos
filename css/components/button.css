@@ -48,6 +48,39 @@
     }
   }
 
+  &.button_base {
+    color: #fff;
+    background-color: var(--gray);
+    border-color: var(--gray);
+
+    &:hover {
+      background-color: var(--gray-hovered);
+      border-color: var(--gray-hovered);
+    }
+
+    &.button_rounded {
+      background: transparent;
+      border-color: var(--gray);
+      color: var(--gray);
+
+      &:hover {
+        color: #fff;
+        background: var(--gray);
+      }
+    }
+
+    &:disabled {
+      opacity: 0.7;
+      background-color: var(--gray-disabled);
+      border-color: var(--gray-disabled);
+
+      &:hover {
+        background-color: var(--gray-disabled);
+        border-color: var(--gray-disabled);
+      }
+    }
+  }
+
   &.button_primary {
     color: #fff;
     background-color: var(--blue);
