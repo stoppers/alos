@@ -14,6 +14,7 @@
 
   &:hover {
     cursor: pointer;
+    transition: background 0.2s ease;
   }
 
   &:focus {
@@ -45,6 +46,17 @@
       border-color: var(--blue-hovered);
     }
 
+    &.button_rounded {
+      background: transparent;
+      border-color: var(--blue);
+      color: var(--blue);
+
+      &:hover {
+        color: #fff;
+        background: var(--blue);
+      }
+    }
+
     &:disabled {
       opacity: 0.7;
       background-color: var(--blue-disabled);
@@ -53,6 +65,105 @@
       &:hover {
         background-color: var(--blue-disabled);
         border-color: var(--blue-disabled);
+      }
+    }
+  }
+
+  &.button_success {
+    color: #fff;
+    background-color: var(--green);
+    border-color: var(--green);
+
+    &:hover {
+      background-color: var(--green-hovered);
+      border-color: var(--green-hovered);
+    }
+
+    &.button_rounded {
+      background: transparent;
+      border-color: var(--green);
+      color: var(--green);
+
+      &:hover {
+        color: #fff;
+        background: var(--green);
+      }
+    }
+
+    &:disabled {
+      opacity: 0.7;
+      background-color: var(--green-disabled);
+      border-color: var(--green-disabled);
+
+      &:hover {
+        background-color: var(--green-disabled);
+        border-color: var(--green-disabled);
+      }
+    }
+  }
+
+  &.button_danger {
+    color: #fff;
+    background-color: var(--danger);
+    border-color: var(--danger);
+
+    &:hover {
+      background-color: var(--danger-hovered);
+      border-color: var(--danger-hovered);
+    }
+
+    &.button_rounded {
+      background: transparent;
+      border-color: var(--danger);
+      color: var(--danger);
+
+      &:hover {
+        color: #fff;
+        background: var(--danger);
+      }
+    }
+
+    &:disabled {
+      opacity: 0.7;
+      background-color: var(--danger-disabled);
+      border-color: var(--danger-disabled);
+
+      &:hover {
+        background-color: var(--danger-disabled);
+        border-color: var(--danger-disabled);
+      }
+    }
+  }
+
+  &.button_warning {
+    color: #fff;
+    background-color: var(--warning);
+    border-color: var(--warning);
+
+    &:hover {
+      background-color: var(--warning-hovered);
+      border-color: var(--warning-hovered);
+    }
+
+    &.button_rounded {
+      background: transparent;
+      border-color: var(--warning);
+      color: var(--warning);
+
+      &:hover {
+        color: #fff;
+        background: var(--warning);
+      }
+    }
+
+    &:disabled {
+      opacity: 0.7;
+      background-color: var(--warning-disabled);
+      border-color: var(--warning-disabled);
+
+      &:hover {
+        background-color: var(--warning-disabled);
+        border-color: var(--warning-disabled);
       }
     }
   }
