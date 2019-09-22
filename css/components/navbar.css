@@ -9,16 +9,14 @@
   padding: 0 20px;
   text-decoration: none;
   height: 60px;
-  color: #343a40;/*#f3f3f3;*/
-  /*box-shadow: 0 3px 3px rgba(0,0,0,0.15);*/
-  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
-  background-color: #fff/*#0071c5;*//*var(--main-color)*/;
+  color: #343a40;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  background-color: #fff;
   z-index: 100;
-  
+
   .navbar__brand {
     display: inline-block;
-    /*padding-top: .3125rem;*/
-    padding-bottom: .2rem;
+    padding-bottom: 0.2rem;
     margin-right: 1rem;
     font-size: 1.25rem;
     font-weight: bold;
@@ -46,7 +44,7 @@
     &.navbar__nav_right {
       margin-left: auto;
       display: flex;
-      flex-direction: row
+      flex-direction: row;
     }
 
     .nav__item {
@@ -54,12 +52,12 @@
 
       .nav__link {
         display: block;
-        padding: .5rem 1rem;
+        padding: 0.5rem 1rem;
         text-decoration: none;
         color: currentColor;
-        
+
         &:hover {
-          color:#000; /*#9addf7;*/
+          color: #000;
         }
 
         /**
@@ -68,11 +66,19 @@
         &.ask {
           background-color: var(--orange);
           border-radius: 10px;
-          background: linear-gradient(to bottom left, rgba(255, 211, 54, 1.0), rgba(255, 55, 53, 1.0));
+          background: linear-gradient(
+            to bottom left,
+            rgba(255, 211, 54, 1),
+            rgba(255, 55, 53, 1)
+          );
 
           &:hover {
             background-color: var(--orange-hovered);
-            background: linear-gradient(to bottom left, rgba(248, 212, 83, 1.0), rgba(255, 93, 91, 1.0));
+            background: linear-gradient(
+              to bottom left,
+              rgba(248, 212, 83, 1),
+              rgba(255, 93, 91, 1)
+            );
             color: #fff;
           }
         }
@@ -122,12 +128,12 @@
   }
 
   .navbar .navbar__nav .nav__link {
-    padding-right: .5rem;
-    padding-left: .5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
 
   .navbar .navbar__collapse {
-    display: flex!important;
+    display: flex !important;
     flex-basis: auto;
   }
 }
