@@ -1,0 +1,42 @@
+.media {
+  display: flex;
+  align-items: flex-start;
+  background-color: #fff;
+  /*border: 1px solid #f1f1f1;*/
+  border-bottom: 1px solid #f1f1f1;
+  font-size: 1rem;
+  padding: 10px;
+
+  .media__body {
+    flex: 1;
+
+    a {
+      color: var(--blue);
+    }
+  }
+}
+
+.avatar {
+  border-radius: 50%;
+
+  &.avatar_mini {
+    width: 35px;
+    height: 35px;
+  }
+
+  &.avatar_middle {
+    width: 50px;
+    height: 50px;
+  }
+
+  &.avatar_big {
+    width: 80px;
+    height: 80px;
+  }
+
+  &.avatar_default {
+    background-repeat: round;
+    background-position: inherit;
+    background-image: url('http://cdn.alos.ru/common/default_avatar.png?v=1')
+  }
+}

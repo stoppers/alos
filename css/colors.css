@@ -1,0 +1,13 @@
+:root {
+  --main-color: #29ca69; /** Можно такой #1dca9a; */
+  --main-color-hovered: #1dbb8f;
+  --blue: #007bff;
+  --blue-hovered: #0974e6;
+  --blue-disabled: #007bff;
+  --orange: #fd7e14;
+  --orange-hovered: #f99e52;
+}
+
+.main-color {
+  background-color: var(--main-color);
+}
