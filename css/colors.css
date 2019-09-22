@@ -6,6 +6,16 @@
   --blue-disabled: #007bff;
   --orange: #fd7e14;
   --orange-hovered: #f99e52;
+  --orange-disabled: #fd7e14;
+  --green: #43a047;
+  --green-hovered: #388e3c;
+  --green-disabled: #43a047;
+  --danger: #e53935;
+  --danger-hovered: #d32f2f;
+  --danger-disabled: #e53935;
+  --warning: #ffa726;
+  --warning-hovered: #ff9800;
+  --warning-disabled: #ffa726;
 }
 
 .main-color {
