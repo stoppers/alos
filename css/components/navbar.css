@@ -64,7 +64,6 @@
          * Кнопка спросить
          */
         &.ask {
-          background-color: var(--orange);
           border-radius: 10px;
           background: linear-gradient(
             to bottom left,
@@ -73,7 +72,6 @@
           );
 
           &:hover {
-            background-color: var(--orange-hovered);
             background: linear-gradient(
               to bottom left,
               rgba(248, 212, 83, 1),
