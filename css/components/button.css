@@ -16,6 +16,10 @@
     font-size: 0.6rem;
   }
 
+  &.button_small {
+    font-size: 0.7rem;
+  }
+
   &:hover {
     cursor: pointer;
     transition: background 0.2s ease;
