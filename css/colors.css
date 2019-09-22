@@ -1,6 +1,9 @@
 :root {
   --main-color: #29ca69; /** Можно такой #1dca9a; */
   --main-color-hovered: #1dbb8f;
+  --gray: #bdbdbd;
+  --gray-hovered: #9e9e9e;
+  --gray-disabled: #bdbdbd;
   --blue: #007bff;
   --blue-hovered: #0974e6;
   --blue-disabled: #007bff;
